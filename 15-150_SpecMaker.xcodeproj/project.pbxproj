@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD237E201B1D4B8E001A89D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD237E1F1B1D4B8E001A89D2 /* Cocoa.framework */; };
+		CD237E2A1B1D4B8E001A89D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD237E281B1D4B8E001A89D2 /* InfoPlist.strings */; };
+		CD237E2C1B1D4B8F001A89D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD237E2B1B1D4B8F001A89D2 /* main.m */; };
+		CD237E301B1D4B8F001A89D2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD237E2E1B1D4B8F001A89D2 /* Credits.rtf */; };
+		CD237E331B1D4B8F001A89D2 /* _50AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD237E321B1D4B8F001A89D2 /* _50AppDelegate.m */; };
+		CD237E361B1D4B8F001A89D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD237E341B1D4B8F001A89D2 /* MainMenu.xib */; };
+		CD237E3E1B1D4B90001A89D2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD237E3D1B1D4B90001A89D2 /* SenTestingKit.framework */; };
+		CD237E3F1B1D4B90001A89D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD237E1F1B1D4B8E001A89D2 /* Cocoa.framework */; };
+		CD237E471B1D4B90001A89D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD237E451B1D4B90001A89D2 /* InfoPlist.strings */; };
+		CD237E4A1B1D4B90001A89D2 /* _5_150_SpecMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD237E491B1D4B90001A89D2 /* _5_150_SpecMakerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD237E401B1D4B90001A89D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD237E121B1D4B8D001A89D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD237E1A1B1D4B8E001A89D2;
+			remoteInfo = "15-150_SpecMaker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD237E1B1B1D4B8E001A89D2 /* 15-150_SpecMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "15-150_SpecMaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD237E1F1B1D4B8E001A89D2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD237E221B1D4B8E001A89D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD237E231B1D4B8E001A89D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD237E241B1D4B8E001A89D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD237E271B1D4B8E001A89D2 /* 15-150_SpecMaker-Info.plist */ = {isa = PBXFileReference; path = "15-150_SpecMaker-Info.plist"; sourceTree = "<group>"; };
+		CD237E291B1D4B8E001A89D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD237E2B1B1D4B8F001A89D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD237E2D1B1D4B8F001A89D2 /* 15-150_SpecMaker-Prefix.pch */ = {isa = PBXFileReference; path = "15-150_SpecMaker-Prefix.pch"; sourceTree = "<group>"; };
+		CD237E2F1B1D4B8F001A89D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD237E311B1D4B8F001A89D2 /* _50AppDelegate.h */ = {isa = PBXFileReference; path = _50AppDelegate.h; sourceTree = "<group>"; };
+		CD237E321B1D4B8F001A89D2 /* _50AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _50AppDelegate.m; sourceTree = "<group>"; };
+		CD237E351B1D4B8F001A89D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD237E3C1B1D4B90001A89D2 /* 15-150_SpecMakerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "15-150_SpecMakerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD237E3D1B1D4B90001A89D2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD237E441B1D4B90001A89D2 /* 15-150_SpecMakerTests-Info.plist */ = {isa = PBXFileReference; path = "15-150_SpecMakerTests-Info.plist"; sourceTree = "<group>"; };
+		CD237E461B1D4B90001A89D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD237E481B1D4B90001A89D2 /* _5_150_SpecMakerTests.h */ = {isa = PBXFileReference; path = _5_150_SpecMakerTests.h; sourceTree = "<group>"; };
+		CD237E491B1D4B90001A89D2 /* _5_150_SpecMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_150_SpecMakerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD237E181B1D4B8E001A89D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD237E201B1D4B8E001A89D2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD237E381B1D4B90001A89D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD237E3E1B1D4B90001A89D2 /* SenTestingKit.framework in Frameworks */,
+				CD237E3F1B1D4B90001A89D2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD237E101B1D4B8D001A89D2 = {
+			isa = PBXGroup;
+			children = (
+				CD237E251B1D4B8E001A89D2 /* 15-150_SpecMaker */,
+				CD237E421B1D4B90001A89D2 /* 15-150_SpecMakerTests */,
+				CD237E1E1B1D4B8E001A89D2 /* Frameworks */,
+				CD237E1C1B1D4B8E001A89D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD237E1C1B1D4B8E001A89D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD237E1B1B1D4B8E001A89D2 /* 15-150_SpecMaker.app */,
+				CD237E3C1B1D4B90001A89D2 /* 15-150_SpecMakerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD237E1E1B1D4B8E001A89D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD237E1F1B1D4B8E001A89D2 /* Cocoa.framework */,
+				CD237E3D1B1D4B90001A89D2 /* SenTestingKit.framework */,
+				CD237E211B1D4B8E001A89D2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD237E211B1D4B8E001A89D2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD237E221B1D4B8E001A89D2 /* AppKit.framework */,
+				CD237E231B1D4B8E001A89D2 /* CoreData.framework */,
+				CD237E241B1D4B8E001A89D2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD237E251B1D4B8E001A89D2 /* 15-150_SpecMaker */ = {
+			isa = PBXGroup;
+			children = (
+				CD237E311B1D4B8F001A89D2 /* _50AppDelegate.h */,
+				CD237E321B1D4B8F001A89D2 /* _50AppDelegate.m */,
+				CD237E341B1D4B8F001A89D2 /* MainMenu.xib */,
+				CD237E261B1D4B8E001A89D2 /* Supporting Files */,
+			);
+			path = "15-150_SpecMaker";
+			sourceTree = "<group>";
+		};
+		CD237E261B1D4B8E001A89D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD237E271B1D4B8E001A89D2 /* 15-150_SpecMaker-Info.plist */,
+				CD237E281B1D4B8E001A89D2 /* InfoPlist.strings */,
+				CD237E2B1B1D4B8F001A89D2 /* main.m */,
+				CD237E2D1B1D4B8F001A89D2 /* 15-150_SpecMaker-Prefix.pch */,
+				CD237E2E1B1D4B8F001A89D2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD237E421B1D4B90001A89D2 /* 15-150_SpecMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD237E481B1D4B90001A89D2 /* _5_150_SpecMakerTests.h */,
+				CD237E491B1D4B90001A89D2 /* _5_150_SpecMakerTests.m */,
+				CD237E431B1D4B90001A89D2 /* Supporting Files */,
+			);
+			path = "15-150_SpecMakerTests";
+			sourceTree = "<group>";
+		};
+		CD237E431B1D4B90001A89D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD237E441B1D4B90001A89D2 /* 15-150_SpecMakerTests-Info.plist */,
+				CD237E451B1D4B90001A89D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD237E1A1B1D4B8E001A89D2 /* 15-150_SpecMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD237E4D1B1D4B90001A89D2 /* Build configuration list for PBXNativeTarget "15-150_SpecMaker" */;
+			buildPhases = (
+				CD237E171B1D4B8E001A89D2 /* Sources */,
+				CD237E181B1D4B8E001A89D2 /* Frameworks */,
+				CD237E191B1D4B8E001A89D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15-150_SpecMaker";
+			productName = "15-150_SpecMaker";
+			productReference = CD237E1B1B1D4B8E001A89D2 /* 15-150_SpecMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD237E3B1B1D4B90001A89D2 /* 15-150_SpecMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD237E501B1D4B90001A89D2 /* Build configuration list for PBXNativeTarget "15-150_SpecMakerTests" */;
+			buildPhases = (
+				CD237E371B1D4B90001A89D2 /* Sources */,
+				CD237E381B1D4B90001A89D2 /* Frameworks */,
+				CD237E391B1D4B90001A89D2 /* Resources */,
+				CD237E3A1B1D4B90001A89D2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD237E411B1D4B90001A89D2 /* PBXTargetDependency */,
+			);
+			name = "15-150_SpecMakerTests";
+			productName = "15-150_SpecMakerTests";
+			productReference = CD237E3C1B1D4B90001A89D2 /* 15-150_SpecMakerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD237E121B1D4B8D001A89D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CD237E151B1D4B8D001A89D2 /* Build configuration list for PBXProject "15-150_SpecMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD237E101B1D4B8D001A89D2;
+			productRefGroup = CD237E1C1B1D4B8E001A89D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD237E1A1B1D4B8E001A89D2 /* 15-150_SpecMaker */,
+				CD237E3B1B1D4B90001A89D2 /* 15-150_SpecMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD237E191B1D4B8E001A89D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD237E2A1B1D4B8E001A89D2 /* InfoPlist.strings in Resources */,
+				CD237E301B1D4B8F001A89D2 /* Credits.rtf in Resources */,
+				CD237E361B1D4B8F001A89D2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD237E391B1D4B90001A89D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD237E471B1D4B90001A89D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD237E3A1B1D4B90001A89D2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD237E171B1D4B8E001A89D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD237E2C1B1D4B8F001A89D2 /* main.m in Sources */,
+				CD237E331B1D4B8F001A89D2 /* _50AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD237E371B1D4B90001A89D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD237E4A1B1D4B90001A89D2 /* _5_150_SpecMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD237E411B1D4B90001A89D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD237E1A1B1D4B8E001A89D2 /* 15-150_SpecMaker */;
+			targetProxy = CD237E401B1D4B90001A89D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD237E281B1D4B8E001A89D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD237E291B1D4B8E001A89D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD237E2E1B1D4B8F001A89D2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD237E2F1B1D4B8F001A89D2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD237E341B1D4B8F001A89D2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD237E351B1D4B8F001A89D2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CD237E451B1D4B90001A89D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD237E461B1D4B90001A89D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD237E4B1B1D4B90001A89D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD237E4C1B1D4B90001A89D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD237E4E1B1D4B90001A89D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "15-150_SpecMaker/15-150_SpecMaker-Prefix.pch";
+				INFOPLIST_FILE = "15-150_SpecMaker/15-150_SpecMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD237E4F1B1D4B90001A89D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "15-150_SpecMaker/15-150_SpecMaker-Prefix.pch";
+				INFOPLIST_FILE = "15-150_SpecMaker/15-150_SpecMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD237E511B1D4B90001A89D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/15-150_SpecMaker.app/Contents/MacOS/15-150_SpecMaker";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "15-150_SpecMaker/15-150_SpecMaker-Prefix.pch";
+				INFOPLIST_FILE = "15-150_SpecMakerTests/15-150_SpecMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CD237E521B1D4B90001A89D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/15-150_SpecMaker.app/Contents/MacOS/15-150_SpecMaker";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "15-150_SpecMaker/15-150_SpecMaker-Prefix.pch";
+				INFOPLIST_FILE = "15-150_SpecMakerTests/15-150_SpecMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD237E151B1D4B8D001A89D2 /* Build configuration list for PBXProject "15-150_SpecMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD237E4B1B1D4B90001A89D2 /* Debug */,
+				CD237E4C1B1D4B90001A89D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD237E4D1B1D4B90001A89D2 /* Build configuration list for PBXNativeTarget "15-150_SpecMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD237E4E1B1D4B90001A89D2 /* Debug */,
+				CD237E4F1B1D4B90001A89D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD237E501B1D4B90001A89D2 /* Build configuration list for PBXNativeTarget "15-150_SpecMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD237E511B1D4B90001A89D2 /* Debug */,
+				CD237E521B1D4B90001A89D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD237E121B1D4B8D001A89D2 /* Project object */;
+}
