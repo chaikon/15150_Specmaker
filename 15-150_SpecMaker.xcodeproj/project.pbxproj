@@ -17,6 +17,9 @@
 		CD237E3F1B1D4B90001A89D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD237E1F1B1D4B8E001A89D2 /* Cocoa.framework */; };
 		CD237E471B1D4B90001A89D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD237E451B1D4B90001A89D2 /* InfoPlist.strings */; };
 		CD237E4A1B1D4B90001A89D2 /* _5_150_SpecMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD237E491B1D4B90001A89D2 /* _5_150_SpecMakerTests.m */; };
+		CDA4E2D81B2E54FC0045B05A /* Screen shot 2015-06-14 at 2.32.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA4E2D71B2E54FC0045B05A /* Screen shot 2015-06-14 at 2.32.35 PM.png */; };
+		CDA4E2DB1B2E59F20045B05A /* Screen shot 2015-06-14 at 2.53.03 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA4E2DA1B2E59F20045B05A /* Screen shot 2015-06-14 at 2.53.03 PM.png */; };
+		CDA4E2DD1B2E5BDD0045B05A /* Screen shot 2015-06-14 at 3.02.19 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA4E2DC1B2E5BDD0045B05A /* Screen shot 2015-06-14 at 3.02.19 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +38,23 @@
 		CD237E221B1D4B8E001A89D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CD237E231B1D4B8E001A89D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CD237E241B1D4B8E001A89D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CD237E271B1D4B8E001A89D2 /* 15-150_SpecMaker-Info.plist */ = {isa = PBXFileReference; path = "15-150_SpecMaker-Info.plist"; sourceTree = "<group>"; };
+		CD237E271B1D4B8E001A89D2 /* 15-150_SpecMaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "15-150_SpecMaker-Info.plist"; sourceTree = "<group>"; };
 		CD237E291B1D4B8E001A89D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD237E2B1B1D4B8F001A89D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD237E2D1B1D4B8F001A89D2 /* 15-150_SpecMaker-Prefix.pch */ = {isa = PBXFileReference; path = "15-150_SpecMaker-Prefix.pch"; sourceTree = "<group>"; };
+		CD237E2D1B1D4B8F001A89D2 /* 15-150_SpecMaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15-150_SpecMaker-Prefix.pch"; sourceTree = "<group>"; };
 		CD237E2F1B1D4B8F001A89D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		CD237E311B1D4B8F001A89D2 /* _50AppDelegate.h */ = {isa = PBXFileReference; path = _50AppDelegate.h; sourceTree = "<group>"; };
+		CD237E311B1D4B8F001A89D2 /* _50AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _50AppDelegate.h; sourceTree = "<group>"; };
 		CD237E321B1D4B8F001A89D2 /* _50AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _50AppDelegate.m; sourceTree = "<group>"; };
 		CD237E351B1D4B8F001A89D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CD237E3C1B1D4B90001A89D2 /* 15-150_SpecMakerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "15-150_SpecMakerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD237E3D1B1D4B90001A89D2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CD237E441B1D4B90001A89D2 /* 15-150_SpecMakerTests-Info.plist */ = {isa = PBXFileReference; path = "15-150_SpecMakerTests-Info.plist"; sourceTree = "<group>"; };
+		CD237E441B1D4B90001A89D2 /* 15-150_SpecMakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "15-150_SpecMakerTests-Info.plist"; sourceTree = "<group>"; };
 		CD237E461B1D4B90001A89D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CD237E481B1D4B90001A89D2 /* _5_150_SpecMakerTests.h */ = {isa = PBXFileReference; path = _5_150_SpecMakerTests.h; sourceTree = "<group>"; };
+		CD237E481B1D4B90001A89D2 /* _5_150_SpecMakerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _5_150_SpecMakerTests.h; sourceTree = "<group>"; };
 		CD237E491B1D4B90001A89D2 /* _5_150_SpecMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_150_SpecMakerTests.m; sourceTree = "<group>"; };
+		CDA4E2D71B2E54FC0045B05A /* Screen shot 2015-06-14 at 2.32.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen shot 2015-06-14 at 2.32.35 PM.png"; sourceTree = "<group>"; };
+		CDA4E2DA1B2E59F20045B05A /* Screen shot 2015-06-14 at 2.53.03 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen shot 2015-06-14 at 2.53.03 PM.png"; sourceTree = "<group>"; };
+		CDA4E2DC1B2E5BDD0045B05A /* Screen shot 2015-06-14 at 3.02.19 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen shot 2015-06-14 at 3.02.19 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 		CD237E101B1D4B8D001A89D2 = {
 			isa = PBXGroup;
 			children = (
+				CDA4E2DC1B2E5BDD0045B05A /* Screen shot 2015-06-14 at 3.02.19 PM.png */,
+				CDA4E2DA1B2E59F20045B05A /* Screen shot 2015-06-14 at 2.53.03 PM.png */,
+				CDA4E2D71B2E54FC0045B05A /* Screen shot 2015-06-14 at 2.32.35 PM.png */,
 				CD237E251B1D4B8E001A89D2 /* 15-150_SpecMaker */,
 				CD237E421B1D4B90001A89D2 /* 15-150_SpecMakerTests */,
 				CD237E1E1B1D4B8E001A89D2 /* Frameworks */,
@@ -190,7 +199,7 @@
 			name = "15-150_SpecMakerTests";
 			productName = "15-150_SpecMakerTests";
 			productReference = CD237E3C1B1D4B90001A89D2 /* 15-150_SpecMakerTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -226,6 +235,9 @@
 				CD237E2A1B1D4B8E001A89D2 /* InfoPlist.strings in Resources */,
 				CD237E301B1D4B8F001A89D2 /* Credits.rtf in Resources */,
 				CD237E361B1D4B8F001A89D2 /* MainMenu.xib in Resources */,
+				CDA4E2D81B2E54FC0045B05A /* Screen shot 2015-06-14 at 2.32.35 PM.png in Resources */,
+				CDA4E2DB1B2E59F20045B05A /* Screen shot 2015-06-14 at 2.53.03 PM.png in Resources */,
+				CDA4E2DD1B2E5BDD0045B05A /* Screen shot 2015-06-14 at 3.02.19 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "15-150_SpecMaker/15-150_SpecMaker-Prefix.pch";
 				INFOPLIST_FILE = "15-150_SpecMaker/15-150_SpecMaker-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -381,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "15-150_SpecMaker/15-150_SpecMaker-Prefix.pch";
 				INFOPLIST_FILE = "15-150_SpecMaker/15-150_SpecMaker-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -433,6 +447,7 @@
 				CD237E4F1B1D4B90001A89D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD237E501B1D4B90001A89D2 /* Build configuration list for PBXNativeTarget "15-150_SpecMakerTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +456,7 @@
 				CD237E521B1D4B90001A89D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

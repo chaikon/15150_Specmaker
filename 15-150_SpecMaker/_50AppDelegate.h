@@ -12,4 +12,16 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (assign) IBOutlet NSTextField *fname;
+@property (assign) IBOutlet NSTextField *ftype;
+
+@property (assign) IBOutlet NSTextField *req;
+@property (assign) IBOutlet NSTextField *ens;
+
+@property (assign) IBOutlet NSTextField *output;
+
+- (IBAction)makeHeader:(id)sender;
+- (IBAction)clear:(id)sender;
+
+
 @end
